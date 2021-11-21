@@ -1,0 +1,29 @@
+🤔 Decider 
+Why?
+Installation
+Syntax
+Example
+Differences from classnames
+
+
+
+
+
+README.md
+
+
+
+
+
+
+
+
+
+
+🤔 Decider 
+Apply CSS to React components conditionally, like a boss.
+className={ decide(styles, {
+    header: true,
+    mobile: props.isMobile,
+    narrow: parseInt(props.width) < 400,
+    hidden: (props
